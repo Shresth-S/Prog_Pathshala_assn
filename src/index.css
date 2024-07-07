@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --color-slatedark: 51 65 85;
+      --color-bgNeutralSilver : 245 247 250;
+      --color-myGreen : 76 175 79;
+      --color-myWhite : 255 255 255;
+      --color-slate9: 15 23 42;
+      --color-zinc9: 24 24 27;
+      --color-neutral5: 115 115 115;
+      --color-slate7: 51 65 85;
+      --color-neutral7: 64 64 64;
+      --color-neutral6: 82 82 82;
+      --color-gray4: 156 163 175;
+      --color-gray8: 31 41 55;
+      --color-gray6: 75 85 99;
+      --color-newBG: 245 247 250;
+      --color-bgWhite : 255 255 255;
+      /* --color-slate700: 51 65 85; */
+      /* ... */
+    }
+
+    :root[data-theme="dark"]{
+        --color-slatedark: 243 246 248;
+        --color-bgNeutralSilver : 10 10 10;
+        --color-myGreen : 76 175 79;
+        --color-myWhite : 0 0 0;
+        --color-slate9: 228 228 231;
+        --color-zinc9: 238 238 241;
+        --color-neutral5: 184 182 182;
+        --color-slate7: 219 221 223;
+        --color-neutral7: 240 240 240;
+        --color-neutral6: 221 219 219;
+        --color-gray4: 217 222 230;
+        --color-gray8: 0 0 0;
+        --color-gray6: 190 191 191;
+        --color-newBG: 41 41 41;
+        --color-bgWhite : 0 0 0;
+    }
+
+    :root[data-theme="light"]{
+        --color-slatedark: 51 65 85;
+        --color-bgNeutralSilver : 245 247 250;
+        --color-myGreen : 76 175 79;
+        --color-myWhite : 255 255 255;
+        --color-slate9: 15 23 42;
+        --color-zinc9: 24 24 27;
+        --color-neutral5: 115 115 115;
+        --color-slate7: 51 65 85;
+        --color-neutral7: 64 64 64;
+        --color-neutral6: 82 82 82;
+        --color-gray4: 156 163 175;
+        --color-gray8: 31 41 55;
+        --color-gray6: 75 85 99;
+        --color-newBG: 245 247 250;
+        --color-bgWhite : 255 255 255;
+    }
+}
+
+body{
+    background-color: rgb(var(--color-bgNeutralSilver));
+    background: rgb(var(--color-bgNeutralSilver));
+}
