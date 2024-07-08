@@ -98,7 +98,7 @@ export default function Header() {
         </Link>
       </ul>
 
-      <ul className='flex h-10 mt-1.5 gap-3'>
+      <ul className='gap-0 flex h-10 mt-1.5'>
         <Link to='/signin'>
           <button className='bg-bgNeutralSilver text-myGreen rounded-md py-2 px-5 w-24 text-sm font-medium text-center hover:opacity-80'>
             Login
