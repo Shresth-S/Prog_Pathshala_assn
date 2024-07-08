@@ -30,9 +30,13 @@ export default function App() {
     <BrowserRouter>
       <div className='flex-row'>
         <Header />
-        <button className='absolute top-6 right-36' onClick={handleTheme}>
+        {/* <button className='absolute top-6 right-36 md:right-48 lg:right-56 xl:right-96 sm:right-32' onClick={handleTheme}>
+          <CgDarkMode className='text-3xl pb-1 text-slatedark' />
+        </button> */}
+        <button className='absolute top-6 right-44 sm:right-28 md:right-48 lg:right-56 xl:right-96' onClick={handleTheme}>
           <CgDarkMode className='text-3xl pb-1 text-slatedark' />
         </button>
+
       </div>
 
       <Routes>
